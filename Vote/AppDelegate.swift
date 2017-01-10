@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Vote
 //
-//  Created by VDAB Cursist on 10/01/17.
+//  Created by Kenneth Debruyn on 10/01/17.
 //  Copyright © 2017 kN3TT3R. All rights reserved.
 //
 
