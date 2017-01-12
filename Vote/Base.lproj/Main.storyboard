@@ -88,9 +88,11 @@
                                 </connections>
                             </button>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wkY-px-JrC">
-                                <rect key="frame" x="159" y="35" width="250" height="250"/>
+                                <rect key="frame" x="159" y="20" width="250" height="250"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="wkY-px-JrC" secondAttribute="height" multiplier="1:1" id="Chh-vS-cgp"/>
+                                    <constraint firstAttribute="width" secondItem="wkY-px-JrC" secondAttribute="height" multiplier="1:1" id="Aa4-P8-Kkd"/>
+                                    <constraint firstAttribute="height" constant="250" id="esH-Ur-pnc"/>
+                                    <constraint firstAttribute="width" constant="250" id="zRl-ba-FbH"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -99,20 +101,18 @@
                             <constraint firstItem="Yhx-mz-tnS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="4:10" constant="-28" id="14P-Va-sEv"/>
                             <constraint firstItem="fpR-1X-Wh5" firstAttribute="top" secondItem="Sku-fU-GXF" secondAttribute="bottom" constant="21" id="1Pl-du-3lE"/>
                             <constraint firstItem="wkY-px-JrC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1id-nc-aEt"/>
-                            <constraint firstItem="wkY-px-JrC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="315-BI-fls"/>
                             <constraint firstItem="yrV-QK-TBf" firstAttribute="bottom" secondItem="Yhx-mz-tnS" secondAttribute="bottom" id="37r-if-ShD"/>
                             <constraint firstItem="Sku-fU-GXF" firstAttribute="top" secondItem="SCI-gd-NAV" secondAttribute="bottom" constant="8" symbolic="YES" id="4uS-cZ-00U"/>
                             <constraint firstAttribute="bottom" secondItem="fpR-1X-Wh5" secondAttribute="bottom" constant="20" symbolic="YES" id="5LK-pF-Awi"/>
                             <constraint firstItem="fpR-1X-Wh5" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="83G-n1-g2N"/>
+                            <constraint firstItem="wkY-px-JrC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="9EA-EV-LZv"/>
                             <constraint firstItem="z0w-yH-0nC" firstAttribute="baseline" secondItem="dp4-OG-LUE" secondAttribute="firstBaseline" id="JL4-BS-48r"/>
                             <constraint firstItem="yrV-QK-TBf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="JtN-PP-pcU"/>
                             <constraint firstItem="SCI-gd-NAV" firstAttribute="top" secondItem="z0w-yH-0nC" secondAttribute="bottom" constant="14" id="Mqi-5N-0HJ"/>
                             <constraint firstItem="yrV-QK-TBf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="RbJ-wc-Akr"/>
                             <constraint firstItem="Yhx-mz-tnS" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="X9g-o5-jgp"/>
                             <constraint firstItem="yrV-QK-TBf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="4:10" constant="-28" id="XQ6-Fv-X8P"/>
-                            <constraint firstItem="wkY-px-JrC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="139" id="Zd9-Io-TpK"/>
                             <constraint firstItem="z0w-yH-0nC" firstAttribute="baseline" secondItem="dp4-OG-LUE" secondAttribute="baseline" id="aSo-v9-Deb"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wkY-px-JrC" secondAttribute="bottom" constant="35" id="dpL-RA-O46"/>
                             <constraint firstItem="dp4-OG-LUE" firstAttribute="leading" secondItem="z0w-yH-0nC" secondAttribute="trailing" constant="8" symbolic="YES" id="iTD-dn-Kqe"/>
                             <constraint firstItem="z0w-yH-0nC" firstAttribute="leading" secondItem="SCI-gd-NAV" secondAttribute="leading" id="ius-CN-TNs"/>
                             <constraint firstItem="dp4-OG-LUE" firstAttribute="baseline" secondItem="z0w-yH-0nC" secondAttribute="firstBaseline" id="kjy-wq-Naj"/>
