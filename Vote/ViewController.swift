@@ -6,7 +6,6 @@
 //  Copyright © 2017 kN3TT3R. All rights reserved.
 //
 
-
 import UIKit
 
 class ViewController: UIViewController {
