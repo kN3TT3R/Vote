@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     struct Vote {
         var counter: Int
         
-        func isBiggerThen(votes: Vote) -> Bool {
+        func isBiggerThan(_ votes: Vote) -> Bool {
             if self.counter > votes.counter {
                 return true
             } else {
@@ -91,7 +91,7 @@ class ViewController: UIViewController {
     
     @IBAction func displayTheNextPresident(_ sender: UIButton) {
         hideUIItems()
-        if republicanVotes.isBiggerThen(votes: democraticVotes) {
+        if republicanVotes.isBiggerThan(democraticVotes) {
             winnersDisplay.image = #imageLiteral(resourceName: "RepublicanLogo")
             winnersDisplay.isHidden = false
         } else {
